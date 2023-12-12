@@ -1,2 +1,2 @@
 #!/bin/bash
-compgen -c | grep -Ev "(oo)|(kk)"
+grep -v 'oo' < <(echo {a..z}{a..z}) | sort
