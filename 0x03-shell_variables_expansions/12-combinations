@@ -1,2 +1,2 @@
 #!/bin/bash
-printf 'a{b..z}{a..z}\n' | grep -v oo
+compgen -c | grep -Ev "(oo)|(kk)"
