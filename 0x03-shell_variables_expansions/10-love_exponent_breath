@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Breath to the power of Love: $(( BREATH ** LOVE ))"
+echo "Breath to the power of Love $(( BREATH ** LOVE ))"
