@@ -1,3 +1,2 @@
 #!/bin/bash
 echo "There are $(( ${#PATH[@]} - 1 )) directories in your PATH."
-
