@@ -1,1 +1,1 @@
-prints hello world
+shell redirection dir
